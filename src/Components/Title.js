@@ -1,22 +1,12 @@
 import React, { Component } from 'react';
 
-class Titles extends Component {
+console
+const Title = () => (
+    <div>
+        <h1 className="title-container__title">Weather Find</h1>
+        <p className="title-container__subtitle" >Find out temperature, conditions more... </p>
+    </div>
+); 
 
-    render(){
-
-        return(
-            
-                <div>
-                  <h1>Weather Find</h1>
-                  <p>Find out temperature, conditions more... </p>
-                </div>
-            
-        ); 
-
-    }
-
-
-} ;
-
-export default Titles;
+export default Title;
 
